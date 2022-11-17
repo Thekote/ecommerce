@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar /> should match snapshot 1`] = `
+.c0 {
+  height: 40px;
+  width: 30rem;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+<input
+  class="c0"
+  placeholder="Pesquisar"
+  type="text"
+/>
+`;

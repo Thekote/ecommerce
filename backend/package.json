@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for Ecommerce",
+  "main": "index.js",
+  "repository": "https://github.com/Thekote/Ecommerce42",
+  "author": "Guilherme Monteiro",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.8.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3",
+    "nodemon": "^2.0.14",
+    "prettier": "^2.5.0",
+    "sequelize-cli": "^6.2.0",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "dev": "nodemon app/index.js",
+    "prettier": "prettier **/*.js --check",
+    "prettier:format": "prettier **/*.{js,html,jsx,css,ts,tsx} --write",
+    "test": "jest"
+  }
+}
